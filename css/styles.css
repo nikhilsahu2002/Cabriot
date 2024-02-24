@@ -11429,11 +11429,9 @@ html {
 }
 
 .download-section{
-  background: linear-gradient(to right top, #1f69f8, #1f69f8, #1f69f8, #1f69f8, #1f69f8);
+  background: linear-gradient(89.92deg, #A7319A 16.64%, #EC3138 95.14%);
 }
-#download{
-  background: linear-gradient(to right top, #1f69f8, #1f69f8, #1f69f8, #1f69f8, #1f69f8);
-}
+
 
 .download-section .container{
   display: flex;
