@@ -28,3 +28,12 @@
     }
 }
 
+@media (min-width: 992px) {
+    #feature_class {
+       display: flex;
+       gap:10px
+    }
+}
+
+
+
