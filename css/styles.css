@@ -11325,6 +11325,16 @@ html {
   fill: #2068F8;
   width: 240px;
 }
+.masthead .masthead-device-mockup .yello-circle {
+  position: absolute;
+  fill: orange;
+  width: 240px;
+}
+.masthead .masthead-device-mockup .red-circle {
+  position: absolute;
+  fill: orange;
+  width: 240px;
+}
 .masthead .masthead-device-mockup .orange-circle {
   position: absolute;
   fill:#ffa733;
@@ -12483,7 +12493,7 @@ color: #FFFFFF;
 .eat-title-underline{
   background-color: #00C064;
   height: 3px;
-  width: 98px;
+  width: 208px;
   margin-bottom: 34px;
 }
 
