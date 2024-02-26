@@ -17,6 +17,8 @@
 
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/CustomStyle.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -87,138 +89,146 @@
     
        
 
-        <section class="py-5" id="features" style="background-color: rgb(243, 243, 243);">
-        
+   
+        <section class="py-5" id="features">
+            <div class="container px-lg-5">
+            
             <div class="eat-container d-flex align-items-center justify-content-center">
                 <div class="eat-serv-head text-center">
                     <div class="container">
-                        <h2 class="pb-3">Discover Cabriot Go For Tailored,<br> Convenient Living Solutions</h2>
+                        <h1 class=" px-lg-5 pb-3 lg-h1 sm-h3" style="font-weight: 600; color: black;" >Discover Cabriot Go For Tailored,
+                            Convenient Living Solutions</h1>
                         <div class="d-flex justify-content-center">
-                            <div class="eat-title-underline" style="background-color: #e89804;"></div>
+                            <div class="eat-title-underline" style="background-color: orange;" ></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="eat-serv-head-para">
-                <p class="px-5 text-center text-muted  px-lg-0 px-4">From laundry and cleaning to bill
-                    payments, grocery delivery, and even <br>
-                    maid services, we integrate convenience
-                    seamlessly into your life</p>
+                <div class="container-sm " id="para" >
+                    <p class="lead fw-normal text-muted mb-4 text-center px-lg-5">
+                        From laundry and cleaning to bill payments, grocery delivery, and even
+maid services, we integrate convenience seamlessly into your life
+                    </p>
+                </div>
+                
             </div>
-            
-            <div class="container px-5 my-lg-5">
+            <div class="container px-5 my-5">
                 <div class="row gx-5">
-                    <div class="col-lg-5 mb-5 mb-lg-0 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-4 mb-5 mb-lg-0 d-flex align-items-center justify-content-center">
                         <img class="pt-5" id="stay-img" style="width: 350px;" src="./assets/img/Cabriot_Go_2.png" alt="" />
                     </div>
                     
-                    <div class="col-lg-7 pt-5">
-                        <div class="row gx-5 row-cols-1 row-cols-md-2 py-5">
-                            <div class="col mb-5 h-100">
-                                <div class="d-flex gap-4">
-                                    <div class="feature"><i class="fa-solid fa-jug-detergent" style="color: orange; font-size: 30px;"></i></div>
-                                    <div>
-                                        <h2 class="h4">Laundry & Cleaning</h2>
-                                        <p class="mb-0 text-muted" >Delegate your chores to our professional services, ensuring a clean and organized living space</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5 h-100">
-                                <div class="d-flex gap-4">
+                    <div class="col-lg-8 pt-5">
+                        <div class="row gx-5 row-cols-1 row-cols-md-2  px-2">
+                            <div class="col mb-5 h-100 pl-5">
+                                <div class="container d-flex gap-4">
                                     <div class="feature"><i class="fa-solid fa-cart-shopping" style="color: orange; font-size: 30px;"></i></div>
                                     <div>
-                                        <h2 class="h4">Grocery Delivery</h2>
-                                        <p class="mb-0 text-muted ">
-                                            Shop for essentials through Cabriot Go and have them delivered promptly, saving you time and effort.</p>
+                                        <h2 class="h4 ">Laundry & Cleaning</h2>
+                                        <p class="lead fw-normal text-muted mb-4 " >Delegate your chores to our professional services, ensuring a clean and organized living space</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col mb-5 mb-md-0 h-100">
-                                <div class="d-flex gap-4">
+                            <div class="col mb-5 h-100 ">
+                                <div class="container d-flex gap-4  " >
+                                     <div class="feature"><i class="fa-solid fa-cart-shopping" style="color: orange; font-size: 30px;"></i></div>
+                                    <div>
+                                        <h2 class="h4 " >Grocery Delivery</h2>
+                                        <p class="mb-0 lead fw-normal text-muted mb-4p">Shop for essentials through Cabriot Go and have them delivered promptly, saving you time and effort.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5 mb-md-0 h-100 pl-5">
+                                <div class="container d-flex gap-4">
+                                    <!-- <div class="feature"><i class="bi bi-cake-fill" style="color: orange; font-size: xx-large;"></i></div> -->
                                     <div class="feature"><i class="fa-solid fa-bell-concierge" style="color: orange; font-size: 30px;"></i></div>
                                     <div>
-                                        <h2 class="h4">Maid Services</h2>
-                                        <p class="mb-0 text-muted ">
-                                            Access professional maid services through Cabriot Go, making household management a breeze.</p>
+                                        <h2 class="h4 ">Maid Services</h2>
+                                        <p class="mb-0 lead fw-normal text-muted mb-4p">Access professional maid services through Cabriot Go, making household management a breeze.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col h-100 ">
-                                <div class="d-flex gap-4">
+                            <div class="col  mb-5 mb-md-0 h-100 ">
+                                <div class="container d-flex gap-4">
                                     <div class="feature"><i class="fa-solid fa-screwdriver-wrench" style="color: orange; font-size: 30px;" ></i></div>
                                     <div>
-                                        <h2 class="h4">Handyman On-Demand</h2>
-                                        <p class="mb-0 text-muted ">Instantly book handyman services for quick fixes and repairs.
+                                        <h2 class="h4 ">Handyman On-Demand</h2>
+                                        <p class="mb-0 lead fw-normal text-muted mb-4p">Instantly book handyman services for quick fixes and repairs.
 
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container px-5 py-lg-5 ">
-                <div class="row gx-5">
-                    <div class="col-lg-7 pt-lg-5 pt-0">
-                        <div class="row gx-5 row-cols-1 row-cols-md-2 lg-py-5">
-                            <div class="col mb-5 h-100">
-                                <div class="d-flex gap-4">
-                                    <div class="feature"><i class="fa-solid fa-plane-departure" style="color: orange; font-size: 30px;"></i></div>
-                                    <div>
-                                        <h2 class="h4">Book Bus, Train, or Flight</h2>
-                                        <p class="mb-0 text-muted" >Seamlessly plan your travels by booking transportation.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5 h-100">
-                                <div class="d-flex gap-4">
-                                    <div class="feature"><i class="fa-solid fa-taxi" style="color: orange; font-size: 30px;"></i></div>
-                                    <div>
-                                        <h2 class="h4">Book A Cab</h2>
-                                        <p class="mb-0 text-muted ">Easily schedule a cab for your commute directly from the app.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-5 mb-md-0 h-100">
-                                <div class="d-flex gap-4">
-                                    <div class="feature"><i class="fa-solid fa-money-bill" style="color: orange; font-size: 30px;"></i></div>
-                                    <div>
-                                        <h2 class="h4">Pay Rent</h2>
-                                        <p class="mb-0 text-muted ">
-                                            Simplify rent payments with Cabriot Go's secure and efficient payment options.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col h-100 ">
-                                <div class="d-flex gap-4">
-                                    <div class="feature"><i class="fa-solid fa-file-invoice-dollar" style="color: orange; font-size: 30px;"></i></div>
-                                    <div>
-                                        <h2 class="h4">Pay Utility Bills</h2>
-                                        <p class="mb-0 text-muted ">Manage and pay your utility bills effortlessly through Cabriot Go.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mb-5 mb-lg-0 d-flex align-items-center justify-content-center">
-                        <img class="pt-5" id="stay-img" style="width: 350px;" src="./assets/img/Cabriot_Go_1.png" alt="" />
                     </div>
                     
                 </div>
             </div>
-        </section> 
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    
+                    <div class="col-lg-8 pt-5">
+                        <div class="row gx-5 row-cols-1 row-cols-md-2  px-2">
+                            <div class="col mb-5 h-100 pl-5">
+                                <div class="container d-flex gap-4">
+                                    <div class="feature"><i class="fa-solid fa-plane-departure" style="color: orange; font-size: 30px;"></i></div>
+                                    <div>
+                                        <h2 class="h4">Book Bus, Train, or Flight</h2>
+                                        <p class="lead fw-normal text-muted mb-4 " >Seamlessly plan your travels by booking transportation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5 h-100 ">
+                                <div class="container d-flex gap-4  " >
+                                    <div class="feature"><i class="fa-solid fa-taxi" style="color: orange; font-size: 30px;"></i></div>
+                                    <div>
+                                        <h2 class="h4 " >Book A Cab</h2>
+                                        <p class="mb-0 lead fw-normal text-muted mb-4p">Easily schedule a cab for your commute directly from the app.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5 mb-md-0 h-100 pl-5">
+                                <div class="container d-flex gap-4">
+                                    <!-- <div class="feature"><i class="bi bi-cake-fill" style="color: orange; font-size: xx-large;"></i></div> -->
+                                    <div class="feature"><i class="fa-solid fa-money-bill" style="color: orange; font-size: 30px;"></i></div>
+                                    <div>
+                                        <h2 class="h4">Pay Rent</h2>
+                                        <p class="mb-0 lead fw-normal text-muted mb-4p">
+                                            Simplify rent payments with Cabriot Go's secure and efficient payment options.
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col  mb-5 mb-md-0 h-100 ">
+                                <div class="container d-flex gap-4">
+                                    <div class="feature"><i class="fa-solid fa-file-invoice-dollar" style="color: orange; font-size: 30px;"></i></div>
+                                    <div>
+                                        <h2 class="h4 ">Pay Utility Bills</h2>
+                                        <p class="mb-0 lead fw-normal text-muted mb-4p">Manage and pay your utility bills effortlessly through Cabriot Go.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0 d-flex align-items-center justify-content-center">
+                        <img class="pt-5" id="stay-img" style="width: 350px;" src="./assets/img/Cabriot_Go_1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 
 
         <section class="download-section eat-download-section" id="download" style="background: linear-gradient(to right top, #ffa500, #f9a201, #f39e02, #ee9b03, #e89804);">
             <div class="container" id="early-access">
                 <div class="set" >
-                    <h1 class="d-none d-lg-block text-center" style="color: white;">Get Early Access to Cabriot</h1>
+                    <h2 class="d-none d-lg-block text-center" style="color: white;">Get Early Access to Cabriot</h2>
                     <h4 class="d-block d-lg-none" style="color: white;">Get Early Access to Cabriot</h4>
                     <div class="d-flex justify-content-center">
                 <p>Cabriot is gearing up to revolutionize your lifestyle, and we want you to be part of the journey from the
