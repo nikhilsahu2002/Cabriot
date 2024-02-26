@@ -36,8 +36,16 @@
 }
 
 @media (min-width: 992px) {
-    #mobileview {
-      grid-row: auto
+    #para {
+     width: 50%;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    #order {
+        gap: 54px;
     }
 }
 

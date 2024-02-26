@@ -12277,7 +12277,16 @@ color: #FFFFFF;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 51px;
+  margin-bottom: 25px;
+  margin-right: 0px;
+}
+.bulk-orders1{
+  color: #FFFFFF;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: 400;
+
+  margin-right: 0px;
 }
 .bulk-orders h3{
   font-size: 50px;
