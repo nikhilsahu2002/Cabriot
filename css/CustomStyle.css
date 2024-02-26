@@ -35,5 +35,11 @@
     }
 }
 
+@media (min-width: 992px) {
+    #mobileview {
+      grid-row: auto
+    }
+}
+
 
 
