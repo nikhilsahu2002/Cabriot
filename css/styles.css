@@ -12633,6 +12633,8 @@ color: #FFFFFF;
   'opsz' 24;
   color: #00C064;
 }
+
+
 /* for desktop */
 .whatsapp_float {
   position: fixed;
@@ -12658,9 +12660,7 @@ color: #FFFFFF;
 }
 
 .whatsapp_float:hover .whatsapp-icon {
-  background: linear-gradient(to right, #ff0000 0%, #990099 100%); /* Change icon color to linear gradient on hover */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ color: green;
 }
 
 /* for mobile */
@@ -12678,8 +12678,6 @@ color: #FFFFFF;
   }
 
   .whatsapp_float:hover .whatsapp-icon {
-      background: linear-gradient(to right, #ff0000 0%, #990099 100%); /* Change icon color to linear gradient on hover for mobile */
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    color: green;
   }
 }
