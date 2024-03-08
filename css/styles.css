@@ -12633,51 +12633,53 @@ color: #FFFFFF;
   'opsz' 24;
   color: #00C064;
 }
-
-
- /* for desktop */
+/* for desktop */
 .whatsapp_float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
 .whatsapp_float:hover {
-    background-color: #25d366; /* Keep the same background color on hover */
+  background-color: #25d366; /* Keep the same background color on hover */
 }
 
 .whatsapp-icon {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .whatsapp_float:hover .whatsapp-icon {
-    color: green; /* Change icon color to green on hover */
+  background: linear-gradient(to right, #ff0000 0%, #990099 100%); /* Change icon color to linear gradient on hover */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* for mobile */
 @media screen and (max-width: 767px) {
-    .whatsapp-icon {
-        margin-top: 10px;
-    }
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
 
-    .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-        font-size: 22px;
-    }
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
 
-    .whatsapp_float:hover .whatsapp-icon {
-        color: green; /* Change icon color to green on hover for mobile */
-    }
+  .whatsapp_float:hover .whatsapp-icon {
+      background: linear-gradient(to right, #ff0000 0%, #990099 100%); /* Change icon color to linear gradient on hover for mobile */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
 }
